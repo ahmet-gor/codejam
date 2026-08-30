@@ -170,3 +170,54 @@
     mask-image: linear-gradient(to bottom, black 55%, transparent);
   }
 }
+
+/* Easter eggs */
+.egg-crt::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  pointer-events: none;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0 2px,
+    oklch(0 0 0 / 0.16) 2px 4px
+  );
+  animation: egg-flicker 4s linear infinite;
+}
+
+.egg-crt::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 58%,
+    oklch(0 0 0 / 0.24) 100%
+  );
+}
+
+@keyframes egg-flicker {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.92;
+  }
+}
+
+@keyframes egg-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(720deg);
+  }
+}
+
+.egg-spin {
+  animation: egg-spin 0.8s cubic-bezier(0.36, 0.07, 0.19, 0.97);
+}

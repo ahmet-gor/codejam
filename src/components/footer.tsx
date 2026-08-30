@@ -37,7 +37,10 @@ export function Footer() {
           <p className="max-w-56 text-sm text-muted-foreground">
             AAA gaming on any screen. No downloads, no patches, no hardware.
           </p>
-          <p className="flex items-center gap-2 text-xs text-muted-foreground">
+          <p
+            data-egg-status
+            className="flex w-fit cursor-pointer items-center gap-2 text-xs text-muted-foreground select-none"
+          >
             <span className="size-2 rounded-full bg-emerald-500" />
             All 8 regions operational
           </p>

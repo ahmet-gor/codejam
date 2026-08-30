@@ -12,6 +12,7 @@ export function Logo({
   return (
     <Link
       href={href}
+      data-egg-logo
       className={cn("flex items-center gap-2 font-semibold", className)}
     >
       <span className="flex size-8 items-center justify-center rounded-lg bg-gradient-to-br from-amber-500 to-orange-600 shadow-lg shadow-primary/30">

@@ -63,6 +63,11 @@ export default function AboutPage() {
           <Link href="/pricing">See pricing</Link>
         </Button>
       </div>
+
+      <p className="mt-10 text-center text-xs text-muted-foreground/70">
+        P.S. Old cheat codes still work around here. ↑↑↓↓←→←→BA is a good
+        start.
+      </p>
     </div>
   )
 }

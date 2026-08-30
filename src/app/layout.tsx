@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { AppProvider } from "@/lib/store";
 import { ThemeProvider, themeInitScript } from "@/lib/theme";
 import { Toaster } from "@/components/ui/sonner";
+import { EasterEggs } from "@/components/easter-eggs";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -37,6 +38,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <AppProvider>
             {children}
             <Toaster position="bottom-right" />
+            <EasterEggs />
           </AppProvider>
         </ThemeProvider>
       </body>
