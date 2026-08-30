@@ -29,7 +29,7 @@ const comparison: {
   values: (string | boolean)[]
 }[] = [
   { label: "Resolution · frame rate", values: ["720p · 60 FPS", "1080p · 60 FPS", "4K HDR · up to 120 FPS"] },
-  { label: "Included games", values: ["50+ indie titles", "150+ full library", "150+ full library & betas"] },
+  { label: "Included games", values: ["Indie favorites", "Full library · 50+ games", "Full library & betas"] },
   { label: "Daily play time", values: ["1 hour", "Unlimited", "Unlimited"] },
   { label: "Cloud saves", values: [true, true, true] },
   { label: "Priority GPU queue", values: [false, true, true] },

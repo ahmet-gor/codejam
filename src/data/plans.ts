@@ -33,7 +33,7 @@ export const plans: Plan[] = [
     features: [
       "1080p · 60 FPS streaming",
       "Unlimited sessions",
-      "Full library · 150+ games",
+      "Full library · 50+ games",
       "Cloud saves & progression",
       "Priority GPU queue",
     ],

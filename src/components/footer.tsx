@@ -14,16 +14,16 @@ const columns = [
     title: "Resources",
     links: [
       { label: "FAQ", href: "/pricing#faq" },
-      { label: "Server status", href: "#" },
-      { label: "Supported devices", href: "#" },
+      { label: "Server status", href: "/status" },
+      { label: "Supported devices", href: "/devices" },
     ],
   },
   {
     title: "Company",
     links: [
-      { label: "About", href: "#" },
-      { label: "Privacy", href: "#" },
-      { label: "Terms", href: "#" },
+      { label: "About", href: "/about" },
+      { label: "Privacy", href: "/privacy" },
+      { label: "Terms", href: "/terms" },
     ],
   },
 ]
